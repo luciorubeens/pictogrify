@@ -9,7 +9,7 @@
 ## Installation
 
 ```html
-<script src='https://unpkg.com/avatar-hash@latest/dist/avatar-hash.js'></script>
+<script src='https://luciorubeens.github.io/avatar-hash/dist/avatar-hash.js'></script>
 
 <div class="avatar"></div>
 ```
@@ -43,4 +43,4 @@ This project was based on [nimiq/robohash](https://github.com/nimiq/robohash).
 
 ## License
 
-[MIT](LICENSE) © Lúcio RUbens
+[MIT](LICENSE) © Lúcio Rubens

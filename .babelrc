@@ -1,0 +1,12 @@
+{
+  "presets": ["babel-preset-env"],
+  "plugins": [
+    ["transform-runtime", {
+      "helpers": false,
+      "polyfill": false,
+      "regenerator": false
+    }],
+    "add-module-exports",
+    "transform-es2015-modules-umd"
+  ]
+}

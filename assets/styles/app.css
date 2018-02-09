@@ -1,0 +1,84 @@
+
+.bg-1 {
+  background-color: #FFE164;
+  color: #1E3746;
+}
+
+.bg-2 {
+  background-color: #34495e;
+  color: #fff;
+}
+
+.bg-3 {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.bg-4 {
+  background-color: #f18989;
+  color: #1E3746;
+}
+
+.bg-1 .border {
+  border: 2px solid #1E3746;
+}
+
+.bg-2 .border {
+  border: 2px solid #fff;
+}
+
+.bg-3 .border {
+  border: 2px solid #fff;
+}
+
+.bg-4 .border {
+  border: 2px solid #1E3746;
+}
+
+.footer {
+  background-color: #1E3746;
+  color: #fff;
+  width: 100%;
+  z-index: 100;
+}
+
+.jumbotron {
+  width: 100%;
+  z-index: 100;
+}
+
+.padding-large {
+  padding: 5em 0;
+}
+
+.jumbotron .title {
+  font-size: 4rem;
+}
+
+.input {
+  height: 48px;
+  background: transparent;
+  font-size: 13pt;
+  color: inherit;
+  outline: none;
+  transition: all 0.3s ease;
+  padding: .2em 1em;
+}
+
+.body-content {
+  background: #fff;
+  padding: 100px 0 120px 0;
+  position: relative;
+  z-index: 0;
+}
+
+.avatar-hash {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.avatar-query {
+  width: 200px;
+  height: 200px;
+}
+

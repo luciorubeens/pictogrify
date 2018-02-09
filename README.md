@@ -33,6 +33,13 @@ The "api" is totally customizable, so you can contribute with a design pack for 
 ## Author
 
 - Lúcio Rubens <luciorubeens@gmail.com>
+ 
+## Similar Tools
+
+This project was based on [nimiq/robohash](https://github.com/nimiq/robohash).
+
+- [RoboHash](https://robohash.org)
+- [FlatHash](http://flathash.com)
 
 ## License
 

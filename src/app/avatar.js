@@ -40,5 +40,5 @@ function template (prop) {
 
 function use (prop, part, index) {
   let fillable = prop.fill[part] ? `fill="${prop.fill[part]}"` : ''
-  return `<use class="${part}" ${fillable} xlink:href="${sprite.url}#${part}-${(index)}" />`
+  return `<use class="${part}" ${fillable} xlink:href="${location.origin}${sprite.url}#${part}-${(index)}" />`
 }

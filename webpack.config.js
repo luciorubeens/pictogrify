@@ -18,6 +18,7 @@ const paths = {
   app: path.resolve(__dirname, './src/app/avatar.js'),
 }
 
+const appName = 'avatar-hash'
 const currentColors = loadReplaceColors().join('|')
 
 function loadPlugins () {
@@ -61,7 +62,7 @@ const build = {
 
   output: {
     path: paths.dist,
-    filename: 'avatar-hash.js',
+    filename: `${appName}.js`,
     library: 'AvatarHash',
     libraryTarget: 'umd',
   },
@@ -119,7 +120,7 @@ const build = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader', 'imports-loader?sprite=>{url: "sprite.svg"}']
+        use: ['babel-loader', `imports-loader?sprite=>{url: "${__PROD__ ? '/' + appName : ''}/dist/sprite.svg"}`]
       }
     ]
   },

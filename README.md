@@ -1,6 +1,6 @@
 <p align="center">
   <h2 align="center">Avatar Hash</h2>
-  <p align="center">🎭 Generate unique avatars from any text</p>
+  <p align="center">🎭 Generate unique avatars from any text: https://luciorubeens.github.io/avatar-hash/</p>
 </p>
 
 <p align="center"><img src="https://i.imgur.com/V7WcroX.png" width="600px" alt="Avatar"></p>

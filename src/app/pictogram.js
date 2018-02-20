@@ -4,7 +4,7 @@ import config from '../config'
 const files = require.context('../themes', true, /\.svg$/)
 files.keys().forEach(files)
 
-export default class AvatarHash {
+export default class Pictogrify {
   constructor (text, theme) {
     this.prop = setup(text, theme)
   }

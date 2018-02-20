@@ -15,10 +15,10 @@ const paths = {
   source: path.resolve(__dirname, './src'),
   dist: path.resolve(__dirname, './dist'),
   assets: path.resolve(__dirname, './assets'),
-  app: path.resolve(__dirname, './src/app/avatar.js'),
+  app: path.resolve(__dirname, './src/app/pictogram.js'),
 }
 
-const appName = 'avatar-hash'
+const appName = 'pictogrify'
 const currentColors = loadReplaceColors().join('|')
 
 function loadPlugins () {
@@ -63,7 +63,7 @@ const build = {
   output: {
     path: paths.dist,
     filename: `${appName}.js`,
-    library: 'AvatarHash',
+    library: 'Pictogrify',
     libraryTarget: 'umd',
   },
 

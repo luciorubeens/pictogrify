@@ -1,6 +1,6 @@
 <p align="center">
-  <h2 align="center">Avatar Hash</h2>
-  <p align="center">🎭 Generate unique avatars from any text: https://luciorubeens.github.io/avatar-hash/</p>
+  <h2 align="center">Pictogrify</h2>
+  <p align="center">🎭 Generate unique pictograms from any text: https://luciorubeens.github.io/pictogrify/</p>
 </p>
 
 <p align="center"><img src="https://i.imgur.com/V7WcroX.png" width="600px" alt="Avatar"></p>
@@ -9,16 +9,16 @@
 ## Installation
 
 ```html
-<script src='https://luciorubeens.github.io/avatar-hash/dist/avatar-hash.js'></script>
+<script src='https://luciorubeens.github.io/pictogrify/dist/pictogrify.js'></script>
 
-<div class="avatar"></div>
+<div class="pictogram"></div>
 ```
 
 ## Usage
 
 ```javascript
 <script>
-new AvatarHash('my text').render(document.querySelector('.avatar'))
+new Pictogrify('my text').render(document.querySelector('.pictogram'))
 </script>
 ```
 

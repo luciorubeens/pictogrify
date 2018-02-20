@@ -1,7 +1,7 @@
 {
-  "name": "avatar-hash",
-  "version": "0.0.1",
-  "description": "Generate unique avatars from any text",
+  "name": "pictogrify",
+  "version": "0.0.2",
+  "description": "Generate unique pictograms from any text",
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
@@ -10,20 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/luciorubeens/avatar-hash.git"
+    "url": "git+ssh://git@github.com/luciorubeens/pictogrify.git"
   },
   "keywords": [
     "robohash",
     "identicons",
+    "pictogram",
     "avatar",
     "hash"
   ],
   "author": "Lúcio Rubens <luciorubeens@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luciorubeens/avatar-hash/issues"
+    "url": "https://github.com/luciorubeens/pictogrify/issues"
   },
-  "homepage": "https://github.com/luciorubeens/avatar-hash#readme",
+  "homepage": "https://github.com/luciorubeens/pictogrify#readme",
   "dependencies": {
     "lodash": "^4.17.5",
     "string-hash": "^1.1.3"

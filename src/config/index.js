@@ -31,7 +31,7 @@ module.exports = {
           'length': 5,
         },
         'hair': {
-          'length': 5,
+          'length': 9,
           'fill': 'foreground',
           'currentColor': '#84483d'
         }

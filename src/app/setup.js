@@ -1,8 +1,11 @@
 import config from '../config'
 import hash from 'string-hash'
+import xmldoc from 'xmldoc'
 import _ from 'lodash'
 
-export default function setup (text, theme) {
+const spriteXml = new xmldoc.XmlDocument(__SPRITE_FILE__).firstChild // defs
+
+export function setup (text, theme) {
   const options = config.themes[theme || config.defaultTheme]
   const uid = ('' + hash(text)).replace(/0/g, '1').split('')
 
@@ -29,4 +32,10 @@ export default function setup (text, theme) {
                   .value()
 
   return { shapes, colors, fill }
+}
+
+export function getSymbols () {
+  return _.transform(spriteXml.children, (result, value) => {
+    result[value.attr.id] = value.children.join('')
+  }, {})
 }

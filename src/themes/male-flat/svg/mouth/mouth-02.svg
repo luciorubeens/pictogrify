@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"><g id="Mouths"><g><path d="M86.564,125.88c4.76,6.883 12.723,11.741 19.809,7.379c2.895,-1.781 5.06,-4.599 7.027,-7.777" style="fill:none;stroke:#000;stroke-width:1.5px;"/><path d="M112.193,124c1.408,0.223 2.312,1.079 2.8,2.459" style="fill:none;stroke:#000;stroke-width:1.5px;"/><path d="M87.725,124.363c-1.399,0.265 -2.278,1.147 -2.725,2.54" style="fill:none;stroke:#000;stroke-width:1.5px;"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Mouths">
+        <g>
+            <path d="M86.564,125.88c4.76,6.883 12.723,11.741 19.809,7.379c2.895,-1.781 5.06,-4.599 7.027,-7.777" style="fill:none;stroke:#000;stroke-width:1.5px;" />
+            <path d="M112.193,124c1.408,0.223 2.312,1.079 2.8,2.459" style="fill:none;stroke:#000;stroke-width:1.5px;" />
+            <path d="M87.725,124.363c-1.399,0.265 -2.278,1.147 -2.725,2.54" style="fill:none;stroke:#000;stroke-width:1.5px;" />
+        </g>
+    </g>
+</svg>

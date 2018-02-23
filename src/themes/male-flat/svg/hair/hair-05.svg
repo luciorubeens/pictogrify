@@ -1,1 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><g id="Hairs"><path id="hair-05" d="M100.074,27.624c23.389,-0.055 47.763,21.52 44.926,64.376l-5,0c0.144,-28.882 -12.652,-46.161 -28.049,-51.857c-1.631,12.804 -21.981,12.912 -23.809,0.163c-15.276,5.86 -28.016,23.097 -28.142,51.694l-5.001,-0.501c-2.339,-42.839 21.724,-63.683 44.852,-63.874c0.075,-0.001 0.223,-0.001 0.223,-0.001" style="fill:#84483d;"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Hairs">
+        <path id="hair-05" d="M100.074,27.624c23.389,-0.055 47.763,21.52 44.926,64.376l-5,0c0.144,-28.882 -12.652,-46.161 -28.049,-51.857c-1.631,12.804 -21.981,12.912 -23.809,0.163c-15.276,5.86 -28.016,23.097 -28.142,51.694l-5.001,-0.501c-2.339,-42.839 21.724,-63.683 44.852,-63.874c0.075,-0.001 0.223,-0.001 0.223,-0.001" style="fill:#84483d;" />
+    </g>
+</svg>

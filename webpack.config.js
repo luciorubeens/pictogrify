@@ -1,12 +1,14 @@
 const webpack = require('webpack')
 const path = require('path')
 const config = require('./src/config')
+const fs = require('fs')
 const _ = require('lodash')
 
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const StringReplacePlugin = require('string-replace-webpack-plugin')
+const { replaceInModuleSource, getAllModules } = require('svg-sprite-loader/lib/utils')
 
 const __DEV__ = process.env.NODE_ENV === 'development'
 const __PROD__ = process.env.NODE_ENV === 'production'
@@ -36,10 +38,28 @@ function loadPlugins () {
     }),
 
     new StringReplacePlugin(),
+
+    {
+      apply(compiler) {
+        compiler.plugin('emit', (compilation, done) => {
+          const { assets } = compilation
+          const spriteFilename = Object.keys(assets).find(assetName => assetName.startsWith('sprite.'))
+          const spriteFile = fs.readFileSync(path.join(paths.dist, spriteFilename))
+
+          getAllModules(compilation).forEach((module) => {
+            replaceInModuleSource(module, {
+              __SPRITE_FILE__: `\'${spriteFile}\'`
+            })
+          })
+
+          done()
+        })
+      }
+    }
   ]
 
   const prod = [
-    new CleanWebpackPlugin([paths.dist]),
+    new CleanWebpackPlugin([paths.dist], { exclude: 'sprite.svg' }),
     new webpack.optimize.UglifyJsPlugin()
   ]
 
@@ -107,7 +127,6 @@ const build = {
               plugins: [
                 { inlineStyles: { onlyMatchedOnce: false } },
                 { removeAttrs: { attrs: ['data.*', 'viewBox', 'serif.*'] } },
-                { mergePaths: true },
                 { removeXMLNS: true },
                 { cleanupIDs: true },
                 { removeUnknownsAndDefaults: true },
@@ -120,7 +139,7 @@ const build = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader', `imports-loader?sprite=>{url: "${__PROD__ ? '/' + appName : ''}/dist/sprite.svg"}`]
+        use: ['babel-loader', `imports-loader?__SPRITE_DIST__=>{url: "${__PROD__ ? '/' + appName : ''}/dist/sprite.svg"}`]
       }
     ]
   },

@@ -6,7 +6,10 @@ document.querySelector('.jumbotron').classList.add(gradients[randomGradient - 1]
 
 // Render multiple svgs
 const now = Date.now()
-document.querySelectorAll('.pictogram').forEach((e, i) => new Pictogrify(now + 'pictogram' + i * Math.random()).render(e))
+document.querySelectorAll('.pictogram').forEach((e, i) => {
+  const pic = new Pictogrify(now + 'pictogram' + i * Math.random())
+  pic.render(e)
+})
 
 // Listen the query event
 const queryInput = document.querySelector('.query')

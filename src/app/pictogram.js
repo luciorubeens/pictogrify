@@ -1,12 +1,15 @@
-import setup from './setup'
+import { setup, getSymbols } from './setup'
 import config from '../config'
 
-const files = require.context('../themes', true, /\.svg$/)
-files.keys().forEach(files)
+const req = require.context('../themes', true, /\.svg$/)
+req.keys().forEach(req)
 
 export default class Pictogrify {
   constructor (text, theme) {
-    this.prop = setup(text, theme)
+    const prop = setup(text, theme)
+    prop.symbols = getSymbols()
+
+    this.prop = prop
   }
 
   get svg () {
@@ -14,31 +17,62 @@ export default class Pictogrify {
   }
 
   get base64 () {
-    return `data:image/svg+xml;base64,${Buffer.from(this.svg).toString('base64')}`
+    const data = template(this.prop, 'inline')
+    return `data:image/svg+xml;base64,${window.btoa(data)}`
   }
 
   render ($element) {
     $element.innerHTML = this.svg
   }
+
+  download (name, mime = 'image/png') {
+    const canvas = document.createElement('canvas')
+    canvas.width = 200
+    canvas.height = 200
+    const ctx = canvas.getContext('2d')
+
+    const image = new Image()
+    image.onload = () => {
+      ctx.drawImage(image, 0, 0)
+      const src = canvas.toDataURL(mime)
+      const a = document.createElement('a')
+      a.download = `${name}.png`
+      a.href = src
+      a.click()
+    }
+    image.src = this.base64
+  }
 }
 
-function template (prop) {
-  let uses = []
+function template (prop, mode = 'use') {
+  let includes = []
 
   for (let item of Object.keys(prop.shapes)) {
-    uses.push(use(prop, item, prop.shapes[item]))
+    includes.push(include(prop, item, prop.shapes[item], mode))
   }
 
   return `
-    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/2000/xlink">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g>
         <rect fill="${prop.colors.background}" x="0" y="0" width="200" height="200"></rect>
-        ${uses.join('\n')}
+        ${includes.join('\n')}
       </g>
     </svg>`
 }
 
-function use (prop, part, index) {
-  let fillable = prop.fill[part] ? `fill="${prop.fill[part]}"` : ''
-  return `<use class="${part}" ${fillable} xlink:href="${location.origin}${sprite.url}#${part}-${(index)}" />`
+function include (prop, part, index, mode) {
+  const fillable = prop.fill[part] ? `fill="${prop.fill[part]}"` : ''
+
+  if (mode === 'use') {
+    return `<use class="${part}" ${fillable} xlink:href="${location.origin}${__SPRITE_DIST__.url}#${part}-${(index)}" />`
+  }
+
+  if (mode === 'inline') {
+    const svg = prop.symbols[`${part}-${index}`]
+
+    return `
+      <svg class="${part}" ${fillable} xmlns="http://www.w3.org/2000/svg">
+      ${svg}
+      </svg>`
+  }
 }

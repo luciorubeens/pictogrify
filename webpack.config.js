@@ -1,7 +1,6 @@
 const webpack = require('webpack')
 const path = require('path')
 const config = require('./src/config')
-const fs = require('fs')
 const _ = require('lodash')
 
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin')
@@ -18,6 +17,7 @@ const paths = {
   dist: path.resolve(__dirname, './dist'),
   assets: path.resolve(__dirname, './assets'),
   app: path.resolve(__dirname, './src/app/pictogram.js'),
+  spriteName: 'sprite.svg'
 }
 
 const appName = 'pictogrify'
@@ -41,25 +41,26 @@ function loadPlugins () {
 
     {
       apply(compiler) {
-        compiler.plugin('emit', (compilation, done) => {
-          const { assets } = compilation
-          const spriteFilename = Object.keys(assets).find(assetName => assetName.startsWith('sprite.'))
-          const spriteFile = fs.readFileSync(path.join(paths.dist, spriteFilename))
-
-          getAllModules(compilation).forEach((module) => {
-            replaceInModuleSource(module, {
-              __SPRITE_FILE__: `\'${spriteFile}\'`
+        compiler.plugin('compilation', (compilation) => {
+          compilation.plugin('optimize-chunk-assets', (chunks, callback) => {
+            const { assets } = compilation
+            const spriteFile = assets[paths.spriteName]
+  
+            getAllModules(compilation).forEach((module) => {
+              replaceInModuleSource(module, {
+                __SPRITE_FILE__: spriteFile && spriteFile.source ? `\'${spriteFile.source()}\'` : ''
+              })
             })
-          })
 
-          done()
+            callback()
+          })
         })
       }
     }
   ]
 
   const prod = [
-    new CleanWebpackPlugin([paths.dist], { exclude: 'sprite.svg' }),
+    new CleanWebpackPlugin([paths.dist]),
     new webpack.optimize.UglifyJsPlugin()
   ]
 
@@ -105,7 +106,7 @@ const build = {
             loader: 'svg-sprite-loader',
             options: {
               extract: true,
-              spriteFilename: 'sprite.svg'
+              spriteFilename: paths.spriteName
             }
           },
           {
@@ -139,7 +140,7 @@ const build = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader', `imports-loader?__SPRITE_DIST__=>{url: "${__PROD__ ? '/' + appName : ''}/dist/sprite.svg"}`]
+        use: ['babel-loader', `imports-loader?__SPRITE_DIST__=>{url: "${__PROD__ ? '/' + appName : ''}/dist/${paths.spriteName}"}`]
       }
     ]
   },

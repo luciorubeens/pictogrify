@@ -17,7 +17,7 @@ const paths = {
   dist: path.resolve(__dirname, './dist'),
   assets: path.resolve(__dirname, './assets'),
   app: path.resolve(__dirname, './src/app/pictogram.js'),
-  spriteName: 'sprite.svg'
+  spritePrefix: 'sprite-'
 }
 
 const appName = 'pictogrify'
@@ -44,11 +44,14 @@ function loadPlugins () {
         compiler.plugin('compilation', (compilation) => {
           compilation.plugin('optimize-chunk-assets', (chunks, callback) => {
             const { assets } = compilation
-            const spriteFile = assets[paths.spriteName]
-  
+            const spriteAssets = _.pickBy(assets, (value, key) => key.startsWith('sprite-'))
+            if (_.isEmpty(spriteAssets) || _.isNil(spriteAssets)) throw new Error('Sprites are not compiled!')
+
+            const spriteSources = _.transform(spriteAssets, (result, value, key) => result[key.replace(/(sprite-|.svg)/g, '')] = value.source())
+
             getAllModules(compilation).forEach((module) => {
               replaceInModuleSource(module, {
-                __SPRITE_FILE__: spriteFile && spriteFile.source ? `\'${spriteFile.source()}\'` : ''
+                __SPRITE_SOURCES__: JSON.stringify(spriteSources)
               })
             })
 
@@ -106,7 +109,11 @@ const build = {
             loader: 'svg-sprite-loader',
             options: {
               extract: true,
-              spriteFilename: paths.spriteName
+              spriteFilename: svgPath => {
+                const tree = path.dirname(svgPath).split(path.sep)
+                const theme = tree[_.indexOf(tree, 'themes') + 1]
+                return `${paths.spritePrefix}${theme}.svg`
+              }
             }
           },
           {
@@ -140,7 +147,7 @@ const build = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader', `imports-loader?__SPRITE_DIST__=>{url: "${__PROD__ ? '/' + appName : ''}/dist/${paths.spriteName}"}`]
+        use: ['babel-loader', `imports-loader?__SPRITE_DIST__=>{url: "${__PROD__ ? '/' + appName : ''}/dist/${paths.spritePrefix}"}`]
       }
     ]
   },

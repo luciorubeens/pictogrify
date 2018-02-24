@@ -1,4 +1,4 @@
-import { setup, getSymbols } from './setup'
+import setup from './setup'
 import config from '../config'
 
 const req = require.context('../themes', true, /\.svg$/)
@@ -6,10 +6,7 @@ req.keys().forEach(req)
 
 export default class Pictogrify {
   constructor (text, theme) {
-    const prop = setup(text, theme)
-    prop.symbols = getSymbols()
-
-    this.prop = prop
+    this.prop = setup(text, theme)
   }
 
   get svg () {
@@ -64,7 +61,7 @@ function include (prop, part, index, mode) {
   const fillable = prop.fill[part] ? `fill="${prop.fill[part]}"` : ''
 
   if (mode === 'use') {
-    return `<use class="${part}" ${fillable} xlink:href="${location.origin}${__SPRITE_DIST__.url}#${part}-${(index)}" />`
+    return `<use class="${part}" ${fillable} xlink:href="${location.origin}${__SPRITE_DIST__.url}${prop.theme}.svg#${part}-${(index)}" />`
   }
 
   if (mode === 'inline') {

@@ -3,10 +3,11 @@ import hash from 'string-hash'
 import xmldoc from 'xmldoc'
 import _ from 'lodash'
 
-const spriteXml = new xmldoc.XmlDocument(__SPRITE_FILE__).firstChild // defs
+const spriteSources = __SPRITE_SOURCES__
+const spriteXml = _.transform(spriteSources, (result, value, key) => result[key] = new xmldoc.XmlDocument(value).firstChild, {})
 
-export function setup (text, theme) {
-  const options = config.themes[theme || config.defaultTheme]
+export default function setup (text, theme = config.defaultTheme) {
+  const options = config.themes[theme]
   const uid = ('' + hash(text)).replace(/0/g, '1').split('')
 
   const shapes = _(options.shapes)
@@ -31,11 +32,9 @@ export function setup (text, theme) {
                   .pickBy(_.identity)
                   .value()
 
-  return { shapes, colors, fill }
-}
-
-export function getSymbols () {
-  return _.transform(spriteXml.children, (result, value) => {
+  const symbols = _.transform(spriteXml[theme].children, (result, value) => {
     result[value.attr.id] = value.children.join('')
   }, {})
+
+  return { theme, shapes, colors, fill, symbols }
 }

@@ -1,0 +1,15 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0,
+    "space-before-function-paren": ["error", "always"],
+    "no-console": "warn",
+    "no-var": "error"
+  }
+}

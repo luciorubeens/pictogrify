@@ -4,7 +4,6 @@ const config = require('./src/config')
 const _ = require('lodash')
 
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const StringReplacePlugin = require('string-replace-webpack-plugin')
 const { replaceInModuleSource, getAllModules } = require('svg-sprite-loader/lib/utils')
@@ -40,7 +39,7 @@ function loadPlugins () {
     new StringReplacePlugin(),
 
     {
-      apply(compiler) {
+      apply (compiler) {
         compiler.plugin('compilation', (compilation) => {
           compilation.plugin('optimize-chunk-assets', (chunks, callback) => {
             const { assets } = compilation
@@ -121,7 +120,7 @@ const build = {
               replacements: [
                 {
                   pattern: new RegExp(`(fill)="(${currentColors})"`, 'g'),
-                  replacement: function (match, p1, p2, string) {
+                  replacement: function (match, p1, p2) {
                     // return `${p1}=param(${p1}) ${p2}`
                     return p1 + '="param(' + p1 + ') ' + p2 + '"'
                   }
@@ -145,9 +144,18 @@ const build = {
         ]
       },
       {
+        enforce: 'pre',
         test: /\.js$/,
         exclude: /node_modules/,
-        use: ['babel-loader', `imports-loader?__SPRITE_DIST__=>{url: "${__PROD__ ? '/' + appName : ''}/dist/${paths.spritePrefix}"}`]
+        loader: 'eslint-loader',
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: [
+          'babel-loader',
+          `imports-loader?__SPRITE_DIST__=>{url: "${__PROD__ ? '/' + appName : ''}/dist/${paths.spritePrefix}"}`,
+        ]
       }
     ]
   },

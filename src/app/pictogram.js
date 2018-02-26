@@ -1,8 +1,9 @@
 import setup from './setup'
-import config from '../config'
 
 const req = require.context('../themes', true, /\.svg$/)
 req.keys().forEach(req)
+
+const spriteDist = __SPRITE_DIST__ // eslint-disable-line no-undef
 
 export default class Pictogrify {
   constructor (text, theme) {
@@ -61,7 +62,7 @@ function include (prop, part, index, mode) {
   const fillable = prop.fill[part] ? `fill="${prop.fill[part]}"` : ''
 
   if (mode === 'use') {
-    return `<use class="${part}" ${fillable} xlink:href="${location.origin}${__SPRITE_DIST__.url}${prop.theme}.svg#${part}-${(index)}" />`
+    return `<use class="${part}" ${fillable} xlink:href="${location.origin}${spriteDist.url}${prop.theme}.svg#${part}-${(index)}" />`
   }
 
   if (mode === 'inline') {

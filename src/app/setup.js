@@ -3,7 +3,7 @@ import hash from 'string-hash'
 import xmldoc from 'xmldoc'
 import _ from 'lodash'
 
-const spriteSources = __SPRITE_SOURCES__
+const spriteSources = __SPRITE_SOURCES__ // eslint-disable-line no-undef
 const spriteXml = _.transform(spriteSources, (result, value, key) => result[key] = new xmldoc.XmlDocument(value).firstChild, {})
 
 export default function setup (text, theme = config.defaultTheme) {

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "build:prod": "webpack -p"
+    "build:prod": "NODE_ENV=production webpack -p"
   },
   "pre-commit": [
     "build:prod"

@@ -2,7 +2,9 @@
   "name": "pictogrify",
   "version": "0.0.2",
   "description": "Generate unique pictograms from any text",
-  "main": "index.js",
+  "main": "dist/pictogrify.js",
+  "browser": "dist/pictogrify.js",
+  "module": "src/app/pictogram.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",

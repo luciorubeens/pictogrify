@@ -4,14 +4,12 @@
   "description": "Generate unique pictograms from any text",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server",
-    "test": "webpack",
-    "prod": "webpack --prod",
-    "webpack": "webpack"
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "build:prod": "webpack -p"
   },
   "pre-commit": [
-    "test",
-    "prod"
+    "build:prod"
   ],
   "repository": {
     "type": "git",

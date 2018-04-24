@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,93.844,108.675)">
+        <g id="eye">
+            <g id="eye-04">
+                <path id="Eye" d="M29,25.2L23.5,30.7C23.1,31.1 22.4,31.1 21.9,30.7L20.3,29.1C19.9,28.7 19.9,28 20.3,27.5L25.8,22L20.3,16.5C19.9,16 19.9,15.3 20.3,14.9L21.9,13.3C22.3,12.9 23,12.9 23.5,13.3L29,18.8L34.5,13.3C34.9,12.9 35.6,12.9 36.1,13.3L37.7,14.9C38.1,15.3 38.1,16 37.7,16.5L32.2,22L37.7,27.5C38.1,27.9 38.1,28.6 37.7,29.1L36.1,30.7C35.7,31.1 35,31.1 34.5,30.7L29,25.2Z" style="fill-opacity:0.596078;fill-rule:nonzero;"/>
+                <path id="Eye1" serif:id="Eye" d="M83,25.2L77.5,30.7C77.1,31.1 76.4,31.1 75.9,30.7L74.3,29.1C73.9,28.7 73.9,28 74.3,27.5L79.8,22L74.3,16.5C73.9,16 73.9,15.3 74.3,14.9L75.9,13.3C76.3,12.9 77,12.9 77.5,13.3L83,18.8L88.5,13.3C88.9,12.9 89.6,12.9 90.1,13.3L91.7,14.9C92.1,15.3 92.1,16 91.7,16.5L86.2,22L91.7,27.5C92.1,27.9 92.1,28.6 91.7,29.1L90.1,30.7C89.7,31.1 89,31.1 88.5,30.7L83,25.2Z" style="fill-opacity:0.596078;fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

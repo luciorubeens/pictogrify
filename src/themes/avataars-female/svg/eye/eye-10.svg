@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,95.1043,109.65)">
+        <g id="eye">
+            <g id="eye-10">
+                <circle id="Cornea--I-don-t-know" serif:id="Cornea?-I-don&apos;t-know" cx="82" cy="22" r="12" style="fill:white;"/>
+                <circle id="Eye" cx="82" cy="22" r="6" style="fill-opacity:0.698039;"/>
+                <path id="Winky-Doodle" d="M16.16,25.447C18.007,21.649 22.164,19 26.998,19C31.814,19 35.959,21.63 37.815,25.407C38.367,26.529 37.582,27.447 36.791,26.767C34.34,24.66 30.859,23.344 26.998,23.344C23.257,23.344 19.874,24.579 17.438,26.572C16.547,27.3 15.62,26.558 16.16,25.447Z" style="fill-opacity:0.596078;"/>
+            </g>
+        </g>
+    </g>
+</svg>

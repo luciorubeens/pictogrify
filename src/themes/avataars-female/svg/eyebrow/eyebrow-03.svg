@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,105.478,99.2076)">
+        <g id="eyebrow">
+            <g id="eyebrow-03">
+                <path id="Eyebrow" d="M3.976,17.128C5.471,7.605 18.059,1.109 27.164,5.301C28.167,5.763 29.355,5.324 29.817,4.321C30.279,3.318 29.84,2.13 28.836,1.668C17.349,-3.622 1.936,4.332 0.024,16.507C-0.147,17.599 0.599,18.622 1.69,18.794C2.781,18.965 3.804,18.219 3.976,17.128Z" style="fill-opacity:0.596078;fill-rule:nonzero;"/>
+                <g id="Eyebrow1" serif:id="Eyebrow" transform="matrix(-1,0,0,1,146,0)">
+                    <path d="M61.976,17.128C63.471,7.605 76.059,1.109 85.164,5.301C86.167,5.763 87.355,5.324 87.817,4.321C88.279,3.318 87.84,2.13 86.836,1.668C75.349,-3.622 59.936,4.332 58.024,16.507C57.853,17.599 58.599,18.622 59.69,18.794C60.781,18.965 61.804,18.219 61.976,17.128Z" style="fill-opacity:0.596078;fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

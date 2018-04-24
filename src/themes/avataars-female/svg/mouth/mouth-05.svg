@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,96.9819,154.761)">
+        <g id="mouth">
+            <g id="mouth-05">
+                <path id="Mouth" d="M86,20C86,12.825 80.175,7 73,7L35,7C27.825,7 22,12.825 22,20C22,27.175 27.825,33 35,33L73,33C80.175,33 86,27.175 86,20Z" style="fill-opacity:0.596078;"/>
+                <path id="Mouth1" serif:id="Mouth" d="M84,20C84,13.929 79.071,9 73,9L35,9C28.929,9 24,13.929 24,20C24,26.071 28.929,31 35,31L73,31C79.071,31 84,26.071 84,20Z" style="fill:white;"/>
+                <path id="Grimace-Teeth" d="M71,22L62,22L62,34L58,34L58,22L49,22L49,34L45,34L45,22L36,22L36,34L32,34L32,22L24,22L24,18L32,18L32,6L36,6L36,18L45,18L45,6L49,6L49,18L58,18L58,6L62,6L62,18L71,18L71,6L75,6L75,18L83.867,18L83.867,22L75,22L75,34L71,34L71,22Z" style="fill:rgb(230,230,230);"/>
+            </g>
+        </g>
+    </g>
+</svg>

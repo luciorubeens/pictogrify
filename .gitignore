@@ -1,5 +1,4 @@
 node_modules/
 .vscode/
 .DS_Store
-package-lock.json
 npm-debug.log

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,17.7922,190.101)">
+        <g id="clothing">
+            <g id="clothing-03">
+                <g id="Overall" transform="matrix(1,0,0,1,0.149319,-0.149319)">
+                    <path d="M94,29.688L94,74L170,74L170,29.688C179.363,30.989 188.15,34.091 196,38.632L196,110L68,110L68,38.632C75.85,34.091 84.637,30.989 94,29.688Z" style="fill:rgb(183,193,219);"/>
+                </g>
+                <circle id="Button" cx="81" cy="83" r="5" style="fill:rgb(244,244,244);"/>
+                <circle id="Button1" serif:id="Button" cx="183" cy="83" r="5" style="fill:rgb(244,244,244);"/>
+            </g>
+        </g>
+    </g>
+</svg>

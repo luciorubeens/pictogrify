@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,56,38)">
+        <g id="hair">
+            <path id="hair-02" d="M38,79.36L38,111C38,133.339 51.08,152.623 70,161.611L70,174.746C50.363,177.434 34.641,182.164 23.385,181C9.162,179.531 1.496,150.796 1,126C0.383,95.164 29.319,30.795 40,18C47.923,8.509 69.695,0.551 94,1C118.305,1.449 140.862,6.812 149,17C161.324,32.428 186.869,91.079 187,126C187.094,150.8 177.463,175.66 164,177C152.921,178.103 137.476,175.511 118,173.997L118,161.611C136.92,152.623 150,133.339 150,111L150,82.988C140.479,78.131 131.863,72.248 124.154,65.341C127.362,70.637 130.849,75.148 134.613,78.873C107.596,71.293 86.106,58.45 70.141,40.345C62.16,56.81 51.446,69.814 38,79.36L38,79.36Z" style="fill:rgb(140,82,45);"/>
+        </g>
+    </g>
+</svg>

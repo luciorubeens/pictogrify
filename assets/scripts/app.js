@@ -7,7 +7,8 @@ document.querySelector('.jumbotron').classList.add(gradients[randomGradient - 1]
 // Render multiple svgs
 const now = Date.now()
 document.querySelectorAll('.pictogram').forEach((e, i) => {
-  const pic = new Pictogrify(now + 'pictogram' + i * Math.random())
+  const theme = e.getAttribute('data-theme') || 'male-flat'
+  const pic = new Pictogrify(now + 'pictogram' + i * Math.random(), theme)
   pic.render(e)
 })
 
@@ -16,6 +17,7 @@ const queryInput = document.querySelector('.query')
 const queryAvatar = document.querySelector('.avatar-query')
 
 queryInput.addEventListener('keyup', function (e) {
+  const theme = queryAvatar.getAttribute('data-theme') || 'male-flat'
   const value = queryInput.value && queryInput.value.length > 0 ? queryInput.value : 'pictogram'
-  new Pictogrify(value).render(queryAvatar)
+  new Pictogrify(value, theme).render(queryAvatar)
 })

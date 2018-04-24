@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,93.5771,109.45)">
+        <g id="eye">
+            <g id="eye-06">
+                <path id="Heart" d="M35.958,10C33.407,10 30.884,11.98 29.5,13.821C28.111,11.98 25.593,10 23.042,10C17.552,10 14,13.334 14,17.641C14,23.371 18.412,26.771 23.042,30.377C24.695,31.613 27.822,34.778 28.208,35.471C28.594,36.164 30.314,36.189 30.792,35.471C31.269,34.753 34.302,31.613 35.958,30.377C40.585,26.771 45,23.371 45,17.641C45,13.334 41.448,10 35.958,10Z" style="fill:rgb(255,83,83);fill-opacity:0.8;fill-rule:nonzero;"/>
+                <path id="Heart1" serif:id="Heart" d="M88.958,10C86.407,10 83.884,11.98 82.5,13.821C81.111,11.98 78.593,10 76.042,10C70.552,10 67,13.334 67,17.641C67,23.371 71.412,26.771 76.042,30.377C77.695,31.613 80.822,34.778 81.208,35.471C81.594,36.164 83.314,36.189 83.792,35.471C84.269,34.753 87.302,31.613 88.958,30.377C93.585,26.771 98,23.371 98,17.641C98,13.334 94.448,10 88.958,10Z" style="fill:rgb(255,83,83);fill-opacity:0.8;fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

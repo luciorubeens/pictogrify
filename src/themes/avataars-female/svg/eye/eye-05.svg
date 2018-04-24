@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,93.6493,110.153)">
+        <g id="eye">
+            <g id="eye-05">
+                <path id="Squint" d="M16.16,22.447C18.007,18.649 22.164,16 26.998,16C31.814,16 35.959,18.63 37.815,22.407C38.367,23.529 37.582,24.447 36.791,23.767C34.34,21.66 30.859,20.344 26.998,20.344C23.257,20.344 19.874,21.579 17.438,23.572C16.547,24.3 15.62,23.558 16.16,22.447Z" style="fill-opacity:0.596078;"/>
+                <path id="Squint1" serif:id="Squint" d="M74.16,22.447C76.007,18.649 80.164,16 84.998,16C89.814,16 93.959,18.63 95.815,22.407C96.367,23.529 95.582,24.447 94.791,23.767C92.34,21.66 88.859,20.344 84.998,20.344C81.257,20.344 77.874,21.579 75.438,23.572C74.547,24.3 73.62,23.558 74.16,22.447Z" style="fill-opacity:0.596078;"/>
+            </g>
+        </g>
+    </g>
+</svg>

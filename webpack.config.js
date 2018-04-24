@@ -74,7 +74,7 @@ function loadPlugins () {
 }
 
 function loadReplaceColors () {
-  const colors = _(config.themes).flatMap((theme) => _.map(theme.shapes, (shape) => shape.currentColor)).compact().value()
+  const colors = _(config.themes).flatMap((theme) => _.map(theme.shapes, (shape) => shape.currentColor)).compact().uniq().value()
   return colors
 }
 

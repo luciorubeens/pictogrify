@@ -25,15 +25,15 @@ module.exports = (text, theme = config.defaultTheme) => {
                       const item = options.colors[color]
                       const maxLength = item.length - 1
 
-                      return [color, uid[index] > maxLength ? item[1] : item[uid[index]]]
+                      return [color, uid[index] > maxLength ? item[1] : item[Number(uid[index])]]
                     })
                     .fromPairs()
                     .value()
 
   const fill = _(options.shapes)
-                  .mapValues((shape) => colors[shape.fill])
-                  .pickBy(_.identity)
-                  .value()
+                    .mapValues((shape) => colors[shape.fill])
+                    .pickBy(_.identity)
+                    .value()
 
   const symbols = _.transform(spriteXml[theme].children, (result, value) => {
     result[value.attr.id] = value.children.join('')

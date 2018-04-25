@@ -7,13 +7,13 @@ module.exports = {
       'fill': 'skin',
       'currentColor': '#d0c6ac'
     },
+    'eyebrow': {
+      'length': 8,
+    },
     'clothing': {
       'length': 5,
       'fill': 'clothing',
       'currentColor': '#b7c1db'
-    },
-    'eyebrow': {
-      'length': 8,
     },
     'eye': {
       'length': 9,

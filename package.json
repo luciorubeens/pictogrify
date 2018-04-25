@@ -1,6 +1,6 @@
 {
   "name": "pictogrify",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Generate unique pictograms from any text",
   "main": "dist/pictogrify.js",
   "browser": "dist/pictogrify.js",

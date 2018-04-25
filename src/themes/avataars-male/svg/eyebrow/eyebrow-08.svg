@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,93.3028,95.8502)">
+        <g id="eyebrow">
+            <g id="eyebrow-08">
+                <path id="Eye-Browse-Reddit" d="M22.766,1.578L23.677,1.176C28.919,-0.905 36.865,-0.033 41.723,2.299C42.29,2.571 41.902,3.452 41.321,3.407C26.402,2.256 16.358,11.553 12.946,17.847C12.845,18.034 12.539,18.055 12.464,17.881C10.156,12.562 16.913,3.896 22.766,1.578Z" style="fill-opacity:0.596078;"/>
+                <g id="Eyebrow" transform="matrix(0.996195,0.0871557,-0.0871557,0.996195,1.83476,-7.4511)">
+                    <path d="M86.535,12.025C92.342,12.293 101.73,16.512 101.488,22.368C101.48,22.56 101.199,22.644 101.061,22.497C98.306,19.537 78.746,16.547 71.856,18.132C71.226,18.277 70.747,17.655 71.146,17.206C74.568,13.357 81.333,11.779 86.535,12.025Z" style="fill-opacity:0.596078;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

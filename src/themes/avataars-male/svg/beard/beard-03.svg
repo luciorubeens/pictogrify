@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,66.4296,87.4853)">
+        <g id="beard">
+            <path id="beard-03" d="M84,69.297C90.792,65.711 100.422,65.149 105.612,67.132C111.386,69.337 116.495,75.583 125.362,72.828C125.731,72.714 126.091,73.045 125.98,73.409C124.607,77.918 116.973,81.007 114.379,81.108C103.039,81.55 93.906,72.83 84,72.161C74.095,72.83 64.961,81.55 53.622,81.108C51.028,81.007 43.394,77.918 42.02,73.409C41.909,73.045 42.27,72.714 42.639,72.828C51.505,75.583 56.614,69.337 62.389,67.132C67.578,65.149 77.208,65.711 84,69.297Z" style="fill:rgb(140,82,45);"/>
+        </g>
+    </g>
+</svg>

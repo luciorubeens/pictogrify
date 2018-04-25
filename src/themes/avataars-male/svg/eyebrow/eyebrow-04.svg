@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,94.0675,92.0697)">
+        <g id="eyebrow">
+            <g id="eyebrow-04">
+                <path id="Fill-5" d="M36.369,6.876C34.399,9.781 30.824,11.517 27.632,12.56C23.689,13.849 9.081,15.939 12.52,23.908C12.572,24.03 12.739,24.031 12.792,23.91C13.945,21.265 30.257,18.787 31.765,18.206C36.21,16.497 40.158,12.715 40.927,7.663C41.279,5.346 40.29,1.614 39.379,0.113C39.27,-0.067 39.005,-0.023 38.95,0.182C38.59,1.513 37.539,5.153 36.369,6.876" style="fill-opacity:0.596078;"/>
+                <g id="Fill-51" serif:id="Fill-5" transform="matrix(-1,0,0,1,171,0)">
+                    <path d="M95.369,6.876C93.399,9.781 89.824,11.517 86.632,12.56C82.689,13.849 68.081,15.939 71.52,23.908C71.572,24.03 71.739,24.031 71.792,23.91C72.945,21.265 89.257,18.787 90.765,18.206C95.21,16.497 99.158,12.715 99.927,7.663C100.279,5.346 99.29,1.614 98.379,0.113C98.27,-0.067 98.005,-0.023 97.95,0.182C97.59,1.513 96.539,5.153 95.369,6.876" style="fill-opacity:0.596078;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

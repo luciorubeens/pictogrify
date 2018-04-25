@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,87.1072,91.7131)">
+        <g id="hair">
+            <path id="hair-09" d="M6,28C0.924,28.071 0,26.994 0,23C0,17.344 4.041,6.778 8,2C9.176,-0.171 11.619,-1.432 11,3C8.34,11.477 11.417,27.914 6,28ZM120,28C114.583,27.914 117.66,11.477 115,3C114.381,-1.432 116.824,-0.171 118,2C121.959,6.778 126,17.344 126,23C126,26.994 125.076,28.071 120,28Z" style="fill:rgb(140,82,45);"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,95.4512,108.023)">
+        <g id="eye">
+            <g id="eye-05">
+                <circle id="Eye" cx="30" cy="22" r="6" style="fill-opacity:0.596078;"/>
+                <g id="Winky-Wink" transform="matrix(0.997564,-0.0697565,0.0697565,0.997564,-1.31981,5.72087)">
+                    <path d="M70.412,24.205C72.259,20.406 76.417,17.758 81.25,17.758C86.066,17.758 90.211,20.387 92.068,24.165C92.619,25.287 91.834,26.205 91.043,25.525C88.592,23.417 85.111,22.101 81.25,22.101C77.509,22.101 74.126,23.336 71.69,25.329C70.799,26.058 69.872,25.316 70.412,24.205Z" style="fill-opacity:0.596078;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

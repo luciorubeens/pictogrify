@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,17.9167,189.823)">
+        <g id="clothing">
+            <path id="clothing-05" d="M171.32,29.936C205.706,35.367 232,65.139 232,101.052L232,110L32,110L32,101.052C32,65.138 58.294,35.366 92.682,29.936C93.584,35.005 96.116,39.824 100.236,43.539L129.321,69.768C130.843,71.14 133.157,71.14 134.679,69.768L163.764,43.539C164.189,43.155 164.601,42.756 164.998,42.343C168.414,38.787 170.517,34.452 171.32,29.936L171.32,29.936Z" style="fill:rgb(183,193,219);"/>
+        </g>
+    </g>
+</svg>

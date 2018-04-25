@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,138,18)">
+        <g id="horn">
+            <path id="horn-05" d="M16.018,55.27L16.332,59.981C16.654,62.467 17.209,63.906 17.997,64.3C19.326,64.964 21.905,65.629 23.78,66L24,66L24,72L0,72L0,66L0.216,66C2.091,65.629 4.671,64.964 6,64.3C6.793,63.904 7.35,62.446 7.672,59.927L7.977,55.347C7.987,54.915 8.908,41.095 10.741,13.887C7.476,13.294 5,10.436 5,7C5,3.134 8.134,0 12,0C15.866,0 19,3.134 19,7C19,10.436 16.524,13.294 13.259,13.887C15.089,41.059 16.009,54.854 16.018,55.27Z" style="fill:rgb(64,39,64);"/>
+        </g>
+    </g>
+</svg>

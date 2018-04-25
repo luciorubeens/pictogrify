@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,95.3696,229.04)">
+        <g id="mouth">
+            <g id="mouth-05">
+                <path id="Path-2-Copy" d="M19.676,12.946C19.153,12.767 18.875,12.198 19.054,11.676C19.233,11.153 19.802,10.875 20.324,11.054C31.888,15.019 43.445,17 55,17C66.555,17 78.112,15.019 89.676,11.054C90.198,10.875 90.767,11.153 90.946,11.676C91.125,12.198 90.847,12.767 90.324,12.946C78.555,16.981 66.779,19 55,19C43.221,19 31.445,16.981 19.676,12.946Z" style="fill-opacity:0.2;fill-rule:nonzero;"/>
+                <path id="Combined-Shape" d="M75.6,16.941C77.469,16.568 79.338,16.143 81.207,15.668C81.119,19.518 79.314,22.646 77.97,22.883C76.659,23.114 76.188,20.526 75.6,16.941ZM27.801,15.411C29.682,15.908 31.563,16.352 33.444,16.746C32.84,20.432 32.376,23.119 31.042,22.883C29.668,22.641 27.812,19.378 27.801,15.411Z" style="fill:white;"/>
+            </g>
+        </g>
+    </g>
+</svg>

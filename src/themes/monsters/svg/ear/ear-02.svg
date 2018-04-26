@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,60.5,148)">
+        <g id="ear">
+            <g id="ear-02">
+                <g transform="matrix(1,0,0,1,-6,0)">
+                    <path d="M15.852,33.899C10.804,33.255 5.776,29.917 2.7,24.588C-2.093,16.287 -0.334,6.298 6.628,2.278C12.585,-1.161 20.421,0.883 25.562,6.745C20.233,13.087 16.581,22.801 15.852,33.899Z" style="fill:rgb(55,118,253);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,6,0)">
+                    <path d="M162.71,34.294C161.982,23.195 158.329,13.481 153,7.14C158.141,1.278 165.977,-0.766 171.934,2.673C178.897,6.693 180.655,16.681 175.863,24.983C172.786,30.311 167.758,33.65 162.71,34.294Z" style="fill:rgb(55,118,253);"/>
+                </g>
+                <g id="Oval-4-Copy" transform="matrix(1,0,0,1,-6,0)">
+                    <path d="M21.345,30.02C15.921,33.151 8.497,30.447 4.763,23.98C1.029,17.513 2.4,9.731 7.824,6.6C13.248,3.468 20.672,6.172 24.406,12.639C28.139,19.107 26.769,26.888 21.345,30.02Z" style="fill:rgb(13,13,13);fill-opacity:0.2;"/>
+                </g>
+                <g id="Oval-4-Copy-2" transform="matrix(1,0,0,1,6,0)">
+                    <path d="M157.504,29.723C152.08,26.592 150.709,18.81 154.443,12.343C158.177,5.876 165.601,3.172 171.025,6.304C176.449,9.435 177.819,17.217 174.086,23.684C170.352,30.151 162.928,32.855 157.504,29.723Z" style="fill:rgb(13,13,13);fill-opacity:0.2;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

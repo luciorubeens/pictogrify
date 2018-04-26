@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,93,143.692)">
+        <g id="eye">
+            <g id="eye-02">
+                <path id="Combined-Shape" d="M96,41C86.059,41 78,32.941 78,23C78,13.059 81.034,0 96,0C110.966,0 114,13.059 114,23C114,32.941 105.941,41 96,41ZM18,41C8.059,41 0,32.941 0,23C0,13.059 3.034,0 18,0C32.966,0 36,13.059 36,23C36,32.941 27.941,41 18,41Z" style="fill:rgb(74,74,74);fill-opacity:0.298039;"/>
+                <ellipse id="_2" serif:id="2" cx="96" cy="23" rx="24" ry="8" style="fill:white;"/>
+                <ellipse id="_21" serif:id="2" cx="18" cy="23" rx="24" ry="8" style="fill:white;"/>
+                <circle id="_1" serif:id="1" cx="96" cy="23" r="6" style="fill:rgb(74,74,74);"/>
+                <circle id="_11" serif:id="1" cx="18" cy="23" r="6" style="fill:rgb(74,74,74);"/>
+            </g>
+        </g>
+    </g>
+</svg>
